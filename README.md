@@ -17,6 +17,7 @@ This repository contains an implementation of Graph Autoencoder (GAE) and Variat
 - SciPy
 - NumPy
 - Scikit-learn
+- MatplotLib
 
 ## Usage
 1. **Data Preparation**: Prepare your graph data in the required format. The dataset should include the adjacency matrix and node features.
@@ -25,8 +26,15 @@ This repository contains an implementation of Graph Autoencoder (GAE) and Variat
 4. **Evaluation**: After training completes, evaluate the trained model on a held-out test set to assess its generalization performance.
 5. **Analysis**: Analyze the learned latent representations and reconstructed adjacency matrix to gain insights into the underlying graph structure.
 
+## Task 2 (Graph Reconstruction VGEA)
+## Features
+- **vgae_graph_reconstruction.ipynb**: Main notebook for training the VGAE model, performing graph reconstruction, and visualization.
+- **VariationalGCNEncoder**: A PyTorch module defining the variational graph convolutional encoder.
+- **Train, Validation, and Test functions**: Functions for training, validation, and testing the VGAE model, respectively.
+- **Data loader**: Loads the ZINC dataset and splits it into train, validation, and test sets.
+- **VGAE model**: Defines the VGAE architecture using a variational graph convolutional encoder and a decoder.
 ## Credits
-The implementation is inspired by the work of Thomas Kipf and his paper on graph autoencoders and Github Repo (https://github.com/DaehanKim/vgae_pytorch). Preprocessing functions are adapted from Kipf's implementation for consistency with commonly used datasets.
+The implementation is inspired by the work of Thomas Kipf and his paper on graph autoencoders and Github Repo (https://github.com/DaehanKim/vgae_pytorch). Preprocessing functions are adapted from Kipf's implementation for consistency with commonly used datasets. Open Source Community
 
 ## License
 This project is licensed under the GPL License.
