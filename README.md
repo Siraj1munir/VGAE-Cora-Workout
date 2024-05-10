@@ -29,4 +29,4 @@ This repository contains an implementation of Graph Autoencoder (GAE) and Variat
 The implementation is inspired by the work of Thomas Kipf and his paper on graph autoencoders and Github Repo (https://github.com/DaehanKim/vgae_pytorch). Preprocessing functions are adapted from Kipf's implementation for consistency with commonly used datasets.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GPL License.
